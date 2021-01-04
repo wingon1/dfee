@@ -8,6 +8,6 @@
     <title>fff</title>
 </head>
 <body>
-<h1>ㄹㅇㄴㄻㄴㅇㄹㄴ</h1>
+<h1>바보당</h1>
 </body>
 </html>
