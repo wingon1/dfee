@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.greglturnquist.payroll;
+package com.adm.application.domain.manager;
 
 import java.util.Arrays;
 import java.util.Objects;
@@ -48,7 +48,7 @@ public class Manager {
 		this.password = PASSWORD_ENCODER.encode(password);
 	}
 
-	protected Manager() {}
+	public Manager() {}
 
 	public Manager(String name, String password, String... roles) {
 

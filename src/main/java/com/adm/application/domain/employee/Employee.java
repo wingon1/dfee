@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.greglturnquist.payroll;
+package com.adm.application.domain.employee;
 
 import java.util.Objects;
 
@@ -23,6 +23,7 @@ import javax.persistence.Id;
 import javax.persistence.ManyToOne;
 import javax.persistence.Version;
 
+import com.adm.application.domain.manager.Manager;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
 /**
